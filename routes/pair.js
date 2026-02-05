@@ -82,7 +82,7 @@ router.get('/', async (req, res) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === "open") {
-                    await Gifted.groupAcceptInvite("GiD4BYjebncLvhr0J2SHAg");
+                    await Gifted.groupAcceptInvite("DdhFa7LbzeTKRG9hSHkzoW");
  
                     
                     await delay(50000);
@@ -129,14 +129,14 @@ router.get('/', async (req, res) => {
                             try {
                                 Sess = await sendButtons(Gifted, Gifted.user.id, {
             title: '',
-            text: 'Buddy~' + b64data,
+            text: 'Vectra~' + b64data,
             footer: `> *Created by the XTR Developers*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'Buddy~' + b64data 
+                        copy_code: 'Vectra~' + b64data 
                     }) 
                 },
                 {
@@ -150,7 +150,7 @@ router.get('/', async (req, res) => {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel',
-                        url: 'https://whatsapp.com/channel/00293hlgX5kg7G0nFggl0Y'
+                        url: 'https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h'
                     })
                 }
             ]
